@@ -1,0 +1,8 @@
+<ActionBar title="Jeu"></ActionBar>
+<StackLayout>
+  <Label [text]="currentQuestion.text" class="h2 text-center"></Label>
+  <StackLayout *ngFor="let option of currentQuestion.options">
+    <Button [text]="option" (tap)="onAnswer(option)" class="btn btn-outline"></Button>
+  </StackLayout>
+  <Label [text]="'Score : ' + score" class="h3 text-center"></Label>
+</StackLayout>

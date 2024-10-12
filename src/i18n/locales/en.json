@@ -1,0 +1,14 @@
+{
+  "welcome": "Welcome to 'Tout le monde veut prendre sa place', {{name}}",
+  "startGame": "Start Game",
+  "viewProfile": "View Profile",
+  "viewLeaderboard": "View Leaderboard",
+  "loading": "Loading...",
+  "score": "Score: {{score}}",
+  "profile": "Profile",
+  "name": "Name: {{name}}",
+  "email": "Email: {{email}}",
+  "totalScore": "Total Score: {{score}}",
+  "logout": "Logout",
+  "leaderboard": "Leaderboard"
+}
